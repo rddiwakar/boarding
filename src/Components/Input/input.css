@@ -1,0 +1,12 @@
+.inputContainer{
+    padding: 5px 0;
+}
+.inputContainer label{
+    display: block;
+    padding-bottom: 10px;
+    
+}
+.inputContainer input{
+    padding: 2px;
+    font-size: 16px;
+}
