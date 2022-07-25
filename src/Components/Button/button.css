@@ -1,5 +1,7 @@
 .button{
-    padding: 10px 20px;
+    padding: 10px;
     background-color: blue;
-    color:white
+    color:white;
+    width: 265px;
+    margin:auto;
 }

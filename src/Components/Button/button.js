@@ -1,7 +1,15 @@
 import "./button.css"
-const Button = ({onClick})=>{
-    return(
-        <button className="button" onClick={()=>onClick()}>WorkSpace</button>
+const Button = ({ onClick }) => {
+    return (
+        <div style={{marginLeft:"10px"}}>
+            <button
+                type="submit"
+                className="button"
+                onClick={() => onClick()}
+            >
+                WorkSpace
+            </button>
+        </div>
     )
 }
-export {Button}
+export { Button }

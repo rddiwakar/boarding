@@ -1,12 +1,15 @@
 .inputContainer{
-    padding: 5px 0;
+    padding: 10px 0;
+    width:250px;
+    margin: auto;
 }
 .inputContainer label{
     display: block;
     padding-bottom: 10px;
-    
+    text-align: left;
 }
 .inputContainer input{
-    padding: 2px;
+    padding: 4px 0 4px 10px;
     font-size: 16px;
+    width:100%;
 }
